@@ -1,0 +1,50 @@
+@charset "utf-8";
+body {
+	background-color: #dddddd;
+	color: rgba(0, 0, 0, 1.0);
+}
+div#interface {
+	width: 850px;
+	background-color: white;
+	margin: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 10px black;
+	padding: 10px;
+}
+header#cabecalho img#icone {
+	position: absolute;
+	left: 900px ;
+	top: 180px ;
+}
+header#cabecalho{
+	border-bottom: 1px #606060;
+	height: 150px;
+}
+p {
+	text-align: justify;
+	text-indent: 50px;
+}
+/*formatação de teste*/
+nav#menu {
+	display: block;
+}
+nav#menu ul {
+	list-style: none;
+	text transform: uppercase;
+	position: absolute;
+	top: 70px;
+	left: 5px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 10px;
+}
+nav#menu h1 {
+	display: table;
+}
+nav#menu a{
+	color: red;
+	text-decoration: none;
+}
